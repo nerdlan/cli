@@ -14,7 +14,7 @@ from appdirs import user_config_dir
 from os.path import isfile, isdir
 from pathlib import Path
 
-from wilfred.errors import WilfredException, ParseError, WriteError
+from wilfred.api.errors import WilfredException, ParseError, WriteError
 
 API_VERSION = 1
 

@@ -8,7 +8,7 @@
 #                                                               #
 #################################################################
 
-from wilfred.database import session, EnvironmentVariable
+from wilfred.api.database import session, EnvironmentVariable
 
 
 class ContainerVariables(object):

@@ -20,7 +20,7 @@ from shutil import move, rmtree
 from copy import deepcopy
 from datetime import datetime, timedelta
 
-from wilfred.errors import WilfredException, ReadError, ParseError
+from wilfred.api.errors import WilfredException, ReadError, ParseError
 from wilfred.version import version
 
 API_VERSION = 2

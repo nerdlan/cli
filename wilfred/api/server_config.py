@@ -13,7 +13,7 @@ import click
 from tabulate import tabulate
 
 from wilfred.container_variables import ContainerVariables
-from wilfred.errors import WilfredException, ParseError, WriteError
+from wilfred.api.errors import WilfredException, ParseError, WriteError
 
 from wilfred.api.parser.properties import properties_read, properties_write
 from wilfred.api.parser.yaml import yaml_read, yaml_write

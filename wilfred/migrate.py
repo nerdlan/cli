@@ -16,7 +16,7 @@ from os.path import isfile
 from os import remove
 
 from wilfred.message_handler import error
-from wilfred.database import session, Server, EnvironmentVariable
+from wilfred.api.database import session, Server, EnvironmentVariable
 
 
 class Migrate:
